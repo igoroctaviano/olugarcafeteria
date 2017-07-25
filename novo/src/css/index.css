@@ -1,0 +1,44 @@
+/* Default */
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+* {
+  font-family: Source Sans Pro, sans-serif;
+}
+.headline-secondary {
+  font-family: Herr Von Muellerhoff, sans-serif;
+  font-weight: normal;
+}
+.navigation a {
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 123;
+  height: 80px;
+  background-color: #354935;
+}
+.logo {
+  height: 150px;
+  padding-left: 100px;
+}
+.logo-image {
+  width: 130px;
+  height: 130px;
+}
+.logo-container {
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+
+
+
+
+
