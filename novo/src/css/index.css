@@ -85,6 +85,10 @@ nav .wrapper {
       transition: all 1s ease;
       width: 100%;
       visibility: hidden;
+      overflow-y: scroll;
+    }
+    nav ul {
+      padding-bottom: 190px;
     }
     nav li {
       border-bottom: 2px solid #F1CB74;
