@@ -5,6 +5,7 @@
 body {
   margin: 0px;
   line-height: 2em;
+  overflow-x: hidden;
 }
 
 /* Typography */
@@ -69,51 +70,6 @@ nav .wrapper {
   align-items: center;
   display: flex;
   justify-content: space-between;
-}
-
-@media screen and (max-width: 768px) {
-    nav nav ul a {
-      color: #F1CB74;
-    }
-    nav ul {
-      background-color: #344632;
-      display: block;
-      height: 0;
-      list-style-type: none;
-      opacity: 0;
-      text-align: center;
-      transition: all 1s ease;
-      width: 100%;
-      visibility: hidden;
-      overflow-y: scroll;
-    }
-    nav ul {
-      padding-bottom: 190px;
-    }
-    nav li {
-      border-bottom: 2px solid #F1CB74;
-      color: blue;
-      display: block;
-      font-size: 1.5em;
-      padding: 2em 0;
-    }
-    nav #menu-toggle:checked ~ ul {
-      opacity: 1;
-      height: 100vh;
-      visibility: visible;
-    }
-    nav .label-toggle {
-      background: linear-gradient(to bottom, #F1CB74 0%, #F1CB74 20%, transparent 20%, transparent 40%, #F1CB74 40%, #F1CB74 60%, transparent 60%, transparent 80%, #F1CB74 80%, #F1CB74 100%);
-      cursor: pointer;
-      display: block;
-      float: right;
-      height: 35px;
-      margin-top: 1em;
-      width: 35px;
-    }
-    nav .wrapper {
-      display: block;
-    }
 }
 
 /* First Super Section */
@@ -261,4 +217,58 @@ nav .wrapper {
     flex-wrap: wrap;
     flex-direction: column;
   }
+}
+
+/* Header Responsiveness */
+@media screen and (max-width: 768px) {
+    nav nav ul a {
+      color: #F1CB74;
+    }
+    nav ul {
+      background-color: #344632;
+      display: block;
+      height: 0;
+      list-style-type: none;
+      opacity: 0;
+      text-align: center;
+      transition: all 1s ease;
+      width: 100%;
+      visibility: hidden;
+      overflow-y: scroll;
+    }
+    nav ul {
+      padding-bottom: 190px;
+    }
+    nav li {
+      border-bottom: 2px solid #F1CB74;
+      color: blue;
+      display: block;
+      font-size: 1.5em;
+      padding: 2em 0;
+    }
+    nav #menu-toggle:checked ~ ul {
+      opacity: 1;
+      height: 100vh;
+      visibility: visible;
+    }
+    nav .label-toggle {
+      background: linear-gradient(to bottom, #F1CB74 0%, #F1CB74 20%, transparent 20%, transparent 40%, #F1CB74 40%, #F1CB74 60%, transparent 60%, transparent 80%, #F1CB74 80%, #F1CB74 100%);
+      cursor: pointer;
+      display: block;
+      float: right;
+      height: 35px;
+      margin-top: 1em;
+      width: 35px;
+    }
+    nav .wrapper {
+      display: block;
+    }
+
+    .super-item .heading {
+      display: flex;
+      flex-direction: column; 
+    }
+    .headline-primary {
+      padding: 0;
+    }
 }
