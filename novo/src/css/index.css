@@ -5,20 +5,21 @@
 body {
   margin: 0px;
   line-height: 2em;
-  text-transform: uppercase;
+}
+
+/* Typography */
+* {
+  font-family: Source Sans Pro, sans-serif;
 }
 
 /* Header */
-h1 {
-  font-size: 3em;
-  padding: 3em 0 1em 0;
-}
 .navBar {
   z-index: 999;
   background-color: #354935;
   position: fixed;
   min-width: 100%;
   height: 80px;
+  text-transform: uppercase;
 }
 
 .logo {
@@ -111,15 +112,149 @@ nav .wrapper {
     }
 }
 
-/* Typography */
-* {
-  font-family: Source Sans Pro, sans-serif;
+/* First Super Section */
+.super-section {
+  margin-top: 50px;
+  display: flex;
+  margin: 0 auto;
+  padding: 0 10%;
+  padding-bottom: 78px;
+  padding-top: 78px;
+  align-items: center;
+}
+.super-item {
+  margin-top: 80px;
+  padding: 20px;
+}
+.super-item img {
+  width: 500px;
+  height: 400px;
+}
+.super-item p {
+  padding: 0 10%;
+  text-align: center;
+  line-height: 1.7;
+}
+.super-item p a {
+  padding: 3px 0;
+  border: 0;
+  border-bottom: 2px solid #c59d5f;
+  border-radius: 0;
+  font-size: 15px;
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #c59d5f;
+}
+.super-item .heading {
+  text-align: center;
+  display: inline;
+}
+
+.headline-primary {
+  padding: 0 20%;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 1.03128;
+  letter-spacing: 0.2em;
+  font-size: 47px;
+  margin: 0;
 }
 .headline-secondary {
-  font-family: Herr Von Muellerhoff, sans-serif;
+  padding-bottom: 10px;
+  font-family: "Herr Von Muellerhoff", Palatino, serif;
+  font-size: 100px;
   font-weight: normal;
+  letter-spacing: 0;
+  text-transform: none;
+  color: #c59d5f;
+  margin: 0;
 }
-.navigation a {
-  font-family: Dosis, sans-serif;
-  font-weight: 200;
+.headline-secondary .first-letter {
+  font-family: "Herr Von Muellerhoff", Palatino, serif;
+  font-size: 1.22em;
+  margin: 0 -72px;
+  padding-left: 72px;
+  letter-spacing: 72px;
+}
+
+.flower-separator {
+  margin: 24px 0;
+  font-size: 17px;
+  font-family: Serif;
+  color: #9a9998;
+  display: block;
+  height: auto;
+  border: 0;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 1;
+  text-align: center;
+}
+
+
+
+
+
+/* Covers */
+.cover-wrapper {
+  position: relative;
+}
+.cover {
+  width: 100%;
+  height: 520px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.cover-wrapper:before {
+  top: -7px;
+}
+.cover-wrapper:after {
+  bottom: -7px;
+}
+.cover-wrapper:before, .cover-wrapper:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  background: url(../imgs/border-wave.svg) top left repeat-x;
+}
+.cover-1 {
+  background-image: url(../imgs/caffeine.jpg);
+}
+.cover-2 {
+  background-image: url(../imgs/machine.jpg);
+}
+.cover-3 {
+  background-image: url(../imgs/third-coffee.jpg);
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 250px;
+  background-image: url(../imgs/footer.jpg);
+}
+.footer p:first-child {
+  font-size: 30px;
+}
+
+
+
+@media screen and (max-width: 1248px) {
+  .super-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
