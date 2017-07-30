@@ -248,7 +248,7 @@ nav .wrapper {
       padding: 2em 0;
     }
     nav #menu-toggle:checked ~ ul {
-      opacity: 1;
+      opacity: 0.97;
       height: 100vh;
       visibility: visible;
     }
