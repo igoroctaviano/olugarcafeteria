@@ -15,11 +15,12 @@ body {
 
 /* Header */
 .navBar {
+  opacity: 0.95;
   z-index: 999;
   background-color: #354935;
   position: fixed;
   min-width: 100%;
-  height: 80px;
+  height: 90px;
   text-transform: uppercase;
 }
 
@@ -191,9 +192,6 @@ nav .wrapper {
   background-image: url(../imgs/machine.jpg);
 }
 .cover-3 {
-  background-image: url(../imgs/third-coffee.jpg);
-}
-.cover-4 {
   background-image: url(../imgs/third-coffee.jpg);
 }
 
