@@ -204,14 +204,12 @@ nav .wrapper {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-  height: 250px;
-  background-image: url(../imgs/footer.jpg);
+  height: 200px;
+  /* background-image: url(../imgs/footer.jpg); */
 }
 .footer p:first-child {
   font-size: 30px;
 }
-
-
 
 @media screen and (max-width: 1248px) {
   .super-section {
