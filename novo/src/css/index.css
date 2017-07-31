@@ -273,3 +273,18 @@ nav .wrapper {
       padding: 0;
     }
 }
+
+
+.insta {
+  content: url(../imgs/insta.svg);
+  height: 20px;
+  width: 20px;
+  margin-top: 6px;
+}
+
+.face {
+  content: url(../imgs/face.svg);
+  height: 20px;
+  width: 20px;
+  margin-top: 6px;
+}
