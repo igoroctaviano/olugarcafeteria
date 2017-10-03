@@ -1,117 +1,119 @@
 body {
-    background-color: #F0CA79;
+  background-color: #f0ca79;
 }
 
 main {
-    text-align: center;
-    margin: auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    overflow: hidden;
-    width: 40%;
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  overflow: hidden;
+  width: 40%;
 }
 
 main img {
-    max-width: 90%;
+  max-width: 90%;
 }
 
 nav {
-    padding: 5%;
-    text-align: center;
+  padding: 5%;
+  text-align: center;
 }
 nav a {
-    display: inline-block;
-    padding: 15px;
+  display: inline-block;
+  padding: 15px;
 }
 
 header {
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    width: 55%;
-    padding-top: 25px;
-    padding-bottom: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 55%;
+  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
 header img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 footer {
-    padding-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    overflow: hidden;
-    width: 55%;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  width: 55%;
 }
 
 footer img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .facebook {
-    height: 5rem;
-    width: 5rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .twitter {
-    height: 5rem;
-    width: 5rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .instagram {
-    height: 5rem;
-    width: 5rem;
+  height: 5rem;
+  width: 5rem;
 }
 
-.facebook:hover, .twitter:hover, .instagram:hover {
-    opacity: 0.5;
+.facebook:hover,
+.twitter:hover,
+.instagram:hover {
+  opacity: 0.5;
 }
 
 .address {
-    font-family : Courier;
-    font-size: 15px;
+  font-family: Courier;
+  font-size: 15px;
 }
 
 /* Responsive Design */
 @media only screen and (max-width: 1063px) {
-    main {
-        width: 60%;
-    }
+  main {
+    width: 60%;
+  }
 
-    .facebook {
-        height: 4rem;
-        width: 4rem;
-    }
+  .facebook {
+    height: 4rem;
+    width: 4rem;
+  }
 
-    .twitter {
-        height: 4rem;
-        width: 4rem;
-    }
+  .twitter {
+    height: 4rem;
+    width: 4rem;
+  }
 
-    .instagram {
-        height: 4rem;
-        width: 4rem;
-    }
+  .instagram {
+    height: 4rem;
+    width: 4rem;
+  }
 }
 
 @media only screen and (max-width: 763px) {
-    main {
-        width: 90%;
-    }
+  main {
+    width: 90%;
+  }
 
-    .facebook {
-        height: 3rem;
-        width: 3rem;
-    }
+  .facebook {
+    height: 3rem;
+    width: 3rem;
+  }
 
-    .twitter {
-        height: 3rem;
-        width: 3rem;
-    }
+  .twitter {
+    height: 3rem;
+    width: 3rem;
+  }
 
-    .instagram {
-        height: 3rem;
-        width: 3rem;
-    }
+  .instagram {
+    height: 3rem;
+    width: 3rem;
+  }
 }

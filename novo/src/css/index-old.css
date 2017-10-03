@@ -29,7 +29,6 @@
   height: 150px;
 }
 
-
 .container {
   padding-top: 10px;
   margin-left: 10%;
@@ -50,16 +49,11 @@ nav ul {
 }
 nav ul a {
   padding: 1rem 2rem;
-  color: #F1CB74;
+  color: #f1cb74;
   text-decoration: none;
 }
-
-
 
 .flex {
   display: flex;
   justify-content: space-between;
 }
-
-
-

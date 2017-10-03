@@ -1,5 +1,6 @@
-html, body {
-  background: #F7F5E6;
+html,
+body {
+  background: #f7f5e6;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -34,28 +35,29 @@ html, body {
   display: block;
 }
 
-.slide:nth-of-type(1), .slide:nth-of-type(2) {
+.slide:nth-of-type(1),
+.slide:nth-of-type(2) {
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center center !important;
 }
 
 .slide:nth-of-type(1) {
-  background: #D7A151;
-  background-image: url('../imgs/first-coffee.jpg');
+  background: #d7a151;
+  background-image: url("../imgs/first-coffee.jpg");
 }
 
 .slide:nth-of-type(2) {
-  background: #F4E4CD;
-    background-image: url('../imgs/second-coffee.jpg');
+  background: #f4e4cd;
+  background-image: url("../imgs/second-coffee.jpg");
 }
 
 .slide:nth-of-type(3) {
-  background: #C75534;
+  background: #c75534;
 }
 
 .slide:nth-of-type(4) {
-  background: #D1D1D4;
+  background: #d1d1d4;
 }
 
 .slide-buttons {
@@ -80,8 +82,9 @@ a.slide-btn {
   transition: all 0.4s ease-in-out;
 }
 
-.slide-btn.active, .slide-btn:hover {
-  color: #428CC6;
+.slide-btn.active,
+.slide-btn:hover {
+  color: #428cc6;
   cursor: pointer;
 }
 
@@ -110,7 +113,8 @@ a.slide-btn {
   top: 0;
 }
 
-.previous-btn, .next-btn {
+.previous-btn,
+.next-btn {
   cursor: pointer;
   /* height: 45px; */
   opacity: 0.5;
@@ -122,7 +126,8 @@ a.slide-btn {
   /* width: 65px; */
 }
 
-.previous-btn:hover, .next-btn:hover {
+.previous-btn:hover,
+.next-btn:hover {
   opacity: 1;
 }
 
