@@ -1,0 +1,59 @@
+/* Default */
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+* {
+  font-family: Source Sans Pro, sans-serif;
+}
+.headline-secondary {
+  font-family: Herr Von Muellerhoff, sans-serif;
+  font-weight: normal;
+}
+.navigation a {
+  font-family: Dosis, sans-serif;
+  font-weight: 200;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 123;
+  height: 75px;
+  background-color: #354935;
+}
+.logo-image {
+  width: 150px;
+  height: 150px;
+}
+
+.container {
+  padding-top: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* Header Menu */
+nav {
+  margin-bottom: 90px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul a {
+  padding: 1rem 2rem;
+  color: #f1cb74;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,149 @@
+html,
+body {
+  background: #f7f5e6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.slider {
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.slide-viewer {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide-group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1),
+.slide:nth-of-type(2) {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center center !important;
+}
+
+.slide:nth-of-type(1) {
+  background: #d7a151;
+  background-image: url("../imgs/first-coffee.jpg");
+}
+
+.slide:nth-of-type(2) {
+  background: #f4e4cd;
+  background-image: url("../imgs/second-coffee.jpg");
+}
+
+.slide:nth-of-type(3) {
+  background: #c75534;
+}
+
+.slide:nth-of-type(4) {
+  background: #d1d1d4;
+}
+
+.slide-buttons {
+  left: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+
+  /* Custom */
+  bottom: 10px;
+  z-index: 50;
+}
+
+a.slide-btn {
+  color: #474544;
+  font-size: 42px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide-btn.active,
+.slide-btn:hover {
+  color: #428cc6;
+  cursor: pointer;
+}
+
+.directional-nav {
+  margin: 0 auto;
+  /* max-width: 940px; */
+  margin-left: 25px;
+  margin-right: 25px;
+  position: relative;
+  top: -340px;
+}
+
+.previous-btn {
+  bottom: 0;
+  left: 0; /* 100 */
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next-btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 0; /* 100 */
+  top: 0;
+}
+
+.previous-btn,
+.next-btn {
+  cursor: pointer;
+  /* height: 45px; */
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  /* width: 65px; */
+}
+
+.previous-btn:hover,
+.next-btn:hover {
+  opacity: 1;
+}
+
+/* @media only screen and (max-width: 767px) {
+  .previous-btn {
+    left: 50px;
+  }
+  .next-btn {
+    right: 50px;
+  }
+} */
+
+/* Custom */
+.right-left-circle {
+  background-color: black;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+}
