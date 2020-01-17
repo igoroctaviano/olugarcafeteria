@@ -391,6 +391,9 @@ nav .wrapper {
     margin: 0;
     font-size: 18px;
   }
+  .slide-text-container img {
+    height: 50px;
+  }
   .slide-card {
     width: 90%;
   }

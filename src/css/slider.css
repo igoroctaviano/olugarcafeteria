@@ -97,28 +97,28 @@ a.slide-btn {
 }
 
 .directional-nav {
-  margin: 0 auto;
-  /* max-width: 940px; */
-  margin-left: 25px;
-  margin-right: 25px;
-  position: relative;
-  top: -540px;
+  position: absolute;
+  bottom: 50%;
+  isolation: flex;
+  width: 100%;
 }
 
 .previous-btn {
   bottom: 0;
-  left: 0; /* 100 */
+  left: 0;
   margin: auto;
   position: absolute;
   top: 0;
+  padding-left: 30px;
 }
 
 .next-btn {
   bottom: 0;
   margin: auto;
   position: absolute;
-  right: 0; /* 100 */
+  right: 0; 
   top: 0;
+  padding-right: 30px;
 }
 
 .previous-btn,
@@ -154,4 +154,14 @@ a.slide-btn {
   border-radius: 100px;
   height: 40px;
   width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .previous-btn {
+    padding-left: 10px;
+  }
+
+  .next-btn {
+    padding-right: 10px;
+  }
 }
