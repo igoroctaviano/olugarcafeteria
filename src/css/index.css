@@ -216,13 +216,9 @@ nav .wrapper {
 /* Slide Text Cards */
 .slide-text {
   color: black;
-
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
-
   text-align: center;
-
-  padding: 20px;
 }
 .slide-card {
   border: 1px solid #fff;
@@ -239,14 +235,17 @@ nav .wrapper {
 .big-text {
   font-size: 30px;
 }
+.slide-text-container img {
+  height: 80px;
+}
 .slide-text-container {
   height: 100%;
-  padding: 0;
+  padding: 0 35px 0 35px;
   margin: 0;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
 
   /* https://stackoverflow.com/questions/33820493/css-how-to-blur-background-image-within-the-div
