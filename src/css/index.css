@@ -391,11 +391,15 @@ nav .wrapper {
     margin: 0;
     font-size: 18px;
   }
+  .slide-text-container {
+    padding: 0 10px 0 10px;
+  }
   .slide-text-container img {
     height: 50px;
   }
   .slide-card {
-    width: 90%;
+    width: 85%;
+    height: 55%;
   }
   .big-text {
     font-size: 23px;
